@@ -96,9 +96,7 @@ function renderFeatured() {
 
       const link = document.createElement("a");
       link.href = article.url;
-      link.target = "_blank";
-      link.rel = "noopener noreferrer";
-      link.textContent = "閱讀 Medium 原文";
+      link.textContent = "閱讀全文";
 
       card.append(meta, title, summary, link);
       return card;
@@ -153,7 +151,7 @@ function createArticleCard(article) {
   summary.textContent = article.summary;
   format.textContent = article.format;
   link.href = article.url;
-  link.setAttribute("aria-label", `閱讀「${article.title}」原文`);
+  link.setAttribute("aria-label", `閱讀「${article.title}」全文`);
 
   tags.replaceChildren(
     ...(article.tags ?? []).slice(0, 3).map((tag) => {
@@ -220,9 +218,7 @@ function showLoadError() {
 
 async function init() {
   try {
-    const response = await fetch("data/articles.json");
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
+    const payload = JSON.parse(document.querySelector("#catalog-data").textContent);
     state.articles = payload.articles;
 
     const categories = [...new Set(state.articles.map((article) => article.category))];

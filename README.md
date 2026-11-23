@@ -1,72 +1,59 @@
-# 臺灣復元優勢觀點社會工作學會文章資料庫
+# 臺灣復元優勢觀點社會工作學會｜全文網站版
 
-這是一個可直接放到 GitHub Pages 的靜態網站範本，已整理 Medium 帳號公開顯示的 **29 則文章**，涵蓋 2023–2024 年。
+本版本包含 29 篇獨立的站內文章，點選「閱讀全文」直接開啟本站文章。文章文字由學會授權的 Medium 原文搬移，未以摘要替代全文。
 
-## 已完成內容
+## 先在電腦預覽
 
-- 29 則文章的標題、發布日期、分類、格式、標籤、編輯摘要及 Medium 原文連結
-- 8 個主題分類：學會介紹、理論與實務、文獻資源、研究成果、案例與影音、專業人物、活動與研討會、督導認證
-- 關鍵字搜尋、分類篩選、日期／標題排序
-- 手機、平板及桌面響應式版面
-- 無外部套件、無建置流程，可直接部署
-- 保留來源標題，另提供較適合新站使用的正規化標題與編輯備註
+解壓縮後，直接用 Chrome 開啟 **index.html** 即可。首頁資料已內嵌，不需要安裝軟體或啟動伺服器。文章、圖片與已下載的附件使用相對路徑，可在本機閱讀。
 
-## 檔案結構
+## 上傳到既有 GitHub 儲存庫
 
-```text
-.
-├── index.html               # 網站頁面
-├── styles.css               # 視覺樣式與響應式版面
-├── app.js                   # 搜尋、篩選與排序
-├── data/
-│   ├── articles.json        # 網站主要資料來源
-│   └── articles.csv         # 方便人工校對或匯入試算表
-├── EDITORIAL-NOTES.md       # 編輯校對與上線前建議
-└── .nojekyll                # GitHub Pages 直接發布靜態檔案
-```
+1. 進入 `strengths-website` 儲存庫首頁，也就是看得到原本 `index.html` 的那一層。
+2. 按 **Add file → Upload files**。
+3. 打開本壓縮檔解壓縮後的資料夾，第一次先選取 **assets 以外的所有項目**，一起拖進上傳區，按 **Commit changes**。這一批共 71 個檔案（含子資料夾內的檔案）。
+4. 回到儲存庫首頁，再按一次 **Add file → Upload files**，這次拖入完整的 **assets 資料夾**，按 **Commit changes**。這一批共 96 個檔案。
+5. **保留 articles、assets、content、scripts 等資料夾，不要拆開其中的檔案，也不要連外層壓縮檔同名資料夾一起上傳。** 同名檔案會由新版本更新。
+6. 若目前想暫不公開，請維持 Settings → Pages → Branch 為 None；上傳檔案後不必重新開啟 Pages。
 
-## 本機預覽
+分兩次上傳是因為 [GitHub 網頁上傳每次最多 100 個檔案](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)。本版本共 167 個檔案，每個檔案均小於 25 MiB。請上傳解壓縮後的內容，不能只上傳 ZIP 壓縮檔。
 
-由於瀏覽器直接開啟 `index.html` 時，可能禁止讀取 JSON，請在專案資料夾內啟動簡易伺服器：
+網站檔案放在 Public 儲存庫時，檔案本身仍可被其他人讀取。若連原始檔也要保密，需另外將儲存庫設定為 Private。
+
+## 第一層檔案與資料夾
+
+| 項目 | 用途 |
+|---|---|
+| index.html | 首頁；內嵌文章索引，本機也能直接開啟 |
+| app.js、styles.css | 首頁搜尋、分類與版面 |
+| article.js、article.css | 文章頁字級、列印與版面 |
+| articles.json、articles.csv | 文章基本資料及校對索引 |
+| articles/ | 29 篇獨立 HTML 全文頁面 |
+| content/ | 29 篇可編輯的 Markdown 原文 |
+| assets/images/ | 站內圖片 |
+| assets/attachments/ | 已下載的 PDF、Word、簡報等附件 |
+| scripts/ | 日後由 Markdown 重新產生文章的工具 |
+| MIGRATION-NOTES.md | 搬移數量、無法取得的附件、待補項目 |
+| migration-report.json | 詳細來源與下載結果，供維護核對 |
+
+本版本**不使用 data 資料夾**，文章索引統一保存在第一層的 articles.json。
+
+## 修改文章
+
+一般文字內容請修改 `content/文章代號.md` 中 `<!-- ARTICLE CONTENT -->` 下方的段落。
+
+在電腦安裝 Python 後，於本資料夾執行以下命令，將 Markdown 變更更新到文章頁與首頁索引：
 
 ```bash
-python -m http.server 8000
+python -m pip install -r scripts/requirements.txt
+python scripts/rebuild.py
 ```
 
-再開啟 `http://localhost:8000`。
+標題、分類、日期與摘要請修改第一層的 `articles.json` 後，再執行相同的重建命令。CSV 為校對輸出，不是網頁的編輯來源。
 
-## 部署至 GitHub Pages
+不使用重建工具時，也可以直接編輯 `articles/文章代號/index.html`，但需自行同步 Markdown 備份。
 
-1. 在 GitHub 建立一個 repository。
-2. 將本資料夾內的全部檔案放到 repository 根目錄並推送至 `main` branch。
-3. 進入 repository 的 **Settings → Pages**。
-4. 在 **Build and deployment** 將 Source 選為 **Deploy from a branch**。
-5. 選擇 `main` 與 `/(root)`，再按 **Save**。
+## 外部資源說明
 
-GitHub Pages 官方說明：<https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site>
+文章全文不再導向 Medium。原文中的書店、研究文獻、報名表單、Podcast 等連結仍屬外部資源。可正常下載的學會附件已保存至 assets/attachments；無法取得的舊連結保留原網址，並列於 MIGRATION-NOTES.md，供日後補檔。
 
-## 新增或修改文章
-
-主要只需編輯 `data/articles.json`。每筆資料格式如下：
-
-```json
-{
-  "id": "unique-id",
-  "title": "新站顯示標題",
-  "sourceTitle": "Medium 原始標題",
-  "date": "2026-11-22",
-  "category": "理論與實務",
-  "format": "實務論述",
-  "summary": "自行整理的短摘要。",
-  "url": "https://medium.com/...",
-  "status": "理論資料",
-  "pinned": false,
-  "tags": ["標籤一", "標籤二"]
-}
-```
-
-如需置頂顯示，將 `pinned` 改為 `true`。新增分類時，可同步在 `app.js` 的 `categoryColors` 設定分類色彩。
-
-## 內容與著作權
-
-本範本僅收錄文章的基本資料、重新撰寫的短摘要及原文連結，不複製 Medium 全文或圖片。若要將全文與圖片搬移到新站，請先確認內容所有權、作者授權及圖片使用權，並設定 canonical URL 或重新規劃原始發布來源，避免搜尋引擎將兩站視為重複內容。
+歷年活動保留原始日期，並標示為歷史資料。認證名單、入會費用與認證辦法仍需學會確認最新版本。

@@ -1,0 +1,598 @@
+{
+  "site": {
+    "name": "臺灣復元優勢觀點社會工作學會",
+    "sourceUrl": "https://medium.com/@strengths.tw",
+    "description": "優勢觀點、復元與社會工作實務的文章索引",
+    "auditedAt": "2026-11-23",
+    "articleCount": 29,
+    "contentPolicy": "已依使用者確認之學會自有或授權內容搬移全文。文章與圖片在站內提供；外部參考資料保留來源連結。"
+  },
+  "articles": [
+    {
+      "id": "seminar-registration-2024",
+      "title": "2024優勢觀點與社會工作研討會開始報名囉",
+      "sourceTitle": "2024優勢觀點與社會工作研討會開始報名囉",
+      "date": "2024-07-02",
+      "category": "活動與研討會",
+      "format": "活動公告",
+      "summary": "彙整2024年研討會報名資訊，主題為「在優勢的基礎上邁向心理健康」。",
+      "url": "articles/seminar-registration-2024/index.html",
+      "status": "歷史資料",
+      "pinned": true,
+      "tags": [
+        "研討會",
+        "心理健康",
+        "報名"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/2024%E5%84%AA%E5%8B%A2%E8%A7%80%E9%BB%9E%E8%88%87%E7%A4%BE%E6%9C%83%E5%B7%A5%E4%BD%9C%E7%A0%94%E8%A8%8E%E6%9C%83%E9%96%8B%E5%A7%8B%E5%A0%B1%E5%90%8D%E5%9B%89-4b813e1f2310",
+      "contentFile": "content/seminar-registration-2024.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "supervisor-directory",
+      "title": "優勢督導名單",
+      "sourceTitle": "優勢督導名單",
+      "date": "2024-03-28",
+      "category": "督導認證",
+      "format": "名錄",
+      "summary": "公告優勢觀點督導名單及定期更新認證的制度說明。",
+      "url": "articles/supervisor-directory/index.html",
+      "status": "需定期更新",
+      "pinned": false,
+      "tags": [
+        "督導",
+        "認證",
+        "名單"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%84%AA%E5%8B%A2%E7%9D%A3%E5%B0%8E%E5%90%8D%E5%96%AE-5322a46652f1",
+      "contentFile": "content/supervisor-directory.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "supervisor-certification",
+      "title": "優勢督導認證辦法與申請",
+      "sourceTitle": "優勢督導認證辧法與申請",
+      "date": "2024-03-28",
+      "category": "督導認證",
+      "format": "辦法",
+      "summary": "整理優勢觀點督導認證制度、申請資格與辦理程序。",
+      "url": "articles/supervisor-certification/index.html",
+      "status": "需確認現行版本",
+      "pinned": false,
+      "reviewNote": "已將來源標題的「辧法」正規化為「辦法」；上線前宜核對最新修訂版本。",
+      "tags": [
+        "督導",
+        "認證",
+        "申請辦法"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%84%AA%E5%8B%A2%E7%9D%A3%E5%B0%8E%E8%AA%8D%E8%AD%89%E8%BE%A7%E6%B3%95-43a8a64f3bca",
+      "contentFile": "content/supervisor-certification.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "foreign-journals",
+      "title": "國外期刊／Foreign Journal",
+      "sourceTitle": "國外期刊／Foreign Journal",
+      "date": "2024-03-28",
+      "category": "文獻資源",
+      "format": "文獻索引",
+      "summary": "依主題彙整國外優勢觀點研究，涵蓋家庭、家暴、心理衛生及其他實務領域。",
+      "url": "articles/foreign-journals/index.html",
+      "status": "資料索引",
+      "pinned": false,
+      "tags": [
+        "國外期刊",
+        "文獻",
+        "心理衛生"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%9C%8B%E5%A4%96%E6%9C%9F%E5%88%8A-foreign-journal-0ed3290f5f78",
+      "contentFile": "content/foreign-journals.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "join-association",
+      "title": "邀請您加入臺灣復元優勢觀點社會工作學會",
+      "sourceTitle": "邀請您加入「臺灣復元優勢觀點社會工作學會」",
+      "date": "2024-03-23",
+      "category": "學會介紹",
+      "format": "會員資訊",
+      "summary": "提供個人會員與團體會員的加入方向，作為會員招募入口。",
+      "url": "articles/join-association/index.html",
+      "status": "需確認現行辦法",
+      "pinned": true,
+      "tags": [
+        "會員",
+        "入會",
+        "學會"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E9%82%80%E8%AB%8B%E6%82%A8%E5%8A%A0%E5%85%A5-%E8%87%BA%E7%81%A3%E5%BE%A9%E5%85%83%E8%88%87%E5%84%AA%E5%8B%A2%E8%A7%80%E9%BB%9E%E5%AD%B8%E6%9C%83-e3fc72993c2f",
+      "contentFile": "content/join-association.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "activity-history",
+      "title": "歷年活動資訊",
+      "sourceTitle": "歷年活動資訊",
+      "date": "2024-03-23",
+      "category": "活動與研討會",
+      "format": "活動彙整",
+      "summary": "彙整學會歷年活動紀錄，來源頁面註明資料更新至2023年9月。",
+      "url": "articles/activity-history/index.html",
+      "status": "資料更新至2023-09",
+      "pinned": false,
+      "tags": [
+        "活動",
+        "歷史",
+        "學會紀錄"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E6%AD%B7%E5%B9%B4%E6%B4%BB%E5%8B%95%E8%B3%87%E8%A8%8A-8e0aa1fe1bd7",
+      "contentFile": "content/activity-history.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "case-video",
+      "title": "案例影片／Video",
+      "sourceTitle": "案例影片／Video",
+      "date": "2024-03-20",
+      "category": "案例與影音",
+      "format": "影音索引",
+      "summary": "收錄「玫瑰人生」案例影音資源，供優勢觀點教學與實務討論使用。",
+      "url": "articles/case-video/index.html",
+      "status": "資料索引",
+      "pinned": false,
+      "tags": [
+        "案例",
+        "影片",
+        "玫瑰人生"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E6%A1%88%E4%BE%8B%E5%BD%B1%E7%89%87-video-8693b013bf8d",
+      "contentFile": "content/case-video.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "case-stories",
+      "title": "案例文章／Story",
+      "sourceTitle": "案例文章／Story",
+      "date": "2024-03-20",
+      "category": "案例與影音",
+      "format": "案例索引",
+      "summary": "彙整優勢觀點的實務案例文章與案例分享入口。",
+      "url": "articles/case-stories/index.html",
+      "status": "資料索引",
+      "pinned": false,
+      "tags": [
+        "案例",
+        "實務",
+        "社會工作"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E6%A1%88%E4%BE%8B%E6%96%87%E7%AB%A0-story-61cc2d93b512",
+      "contentFile": "content/case-stories.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "practitioners",
+      "title": "實務領域／Practitioners",
+      "sourceTitle": "實務領域／Practicians",
+      "date": "2024-03-20",
+      "category": "專業人物",
+      "format": "人物索引",
+      "summary": "整理優勢觀點實務工作者名單，作為專業人物與經驗傳承的入口。",
+      "url": "articles/practitioners/index.html",
+      "status": "人物索引",
+      "pinned": false,
+      "reviewNote": "英文標題已由 Practicians 建議修正為 Practitioners。",
+      "tags": [
+        "實務工作者",
+        "人物",
+        "專業社群"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%AF%A6%E5%8B%99%E9%A0%98%E5%9F%9F-practicians-ec05a484ae86",
+      "contentFile": "content/practitioners.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "academicians",
+      "title": "學術領域／Academicians",
+      "sourceTitle": "學術領域／Academicians",
+      "date": "2024-03-19",
+      "category": "專業人物",
+      "format": "人物索引",
+      "summary": "整理優勢觀點相關學者名單，作為學術研究與專業連結的入口。",
+      "url": "articles/academicians/index.html",
+      "status": "人物索引",
+      "pinned": false,
+      "tags": [
+        "學者",
+        "研究",
+        "人物"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%AD%B8%E8%A1%93%E9%A0%98%E5%9F%9F-academicians-fa61275eec9b",
+      "contentFile": "content/academicians.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "organizations-and-activities",
+      "title": "組織活動／Organizations and Activities",
+      "sourceTitle": "組織活動/Organization and Activites",
+      "date": "2024-03-19",
+      "category": "文獻資源",
+      "format": "資源索引",
+      "summary": "彙整國內外相關組織與活動資訊，作為外部資源連結。",
+      "url": "articles/organizations-and-activities/index.html",
+      "status": "資料索引",
+      "pinned": false,
+      "reviewNote": "英文標題已將 Activites 修正為 Activities，並調整為複數語意。",
+      "tags": [
+        "組織",
+        "活動",
+        "資源"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E7%B5%84%E7%B9%94%E6%B4%BB%E5%8B%95-organization-and-activites-2b2b9fe585cd",
+      "contentFile": "content/organizations-and-activities.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "strengths-podcast",
+      "title": "從優勢觀點取向談社會工作與近期凱凱事件",
+      "sourceTitle": "從優勢觀點取向談社會工作與近期凱凱事件／三步去哪裡（Apple Podcast）",
+      "date": "2024-03-18",
+      "category": "案例與影音",
+      "format": "Podcast",
+      "summary": "收錄鄧啟明社工督導談優勢觀點與兒少保護事件的Podcast訪談。",
+      "url": "articles/strengths-podcast/index.html",
+      "status": "影音資料",
+      "pinned": false,
+      "tags": [
+        "Podcast",
+        "兒少保護",
+        "訪談"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%BE%9E%E5%84%AA%E5%8B%A2%E8%A7%80%E9%BB%9E%E5%8F%96%E5%90%91%E8%AB%87%E7%A4%BE%E6%9C%83%E5%B7%A5%E4%BD%9C%E8%88%87%E8%BF%91%E6%9C%9F%E5%87%B1%E5%87%B1%E4%BA%8B%E4%BB%B6-%E4%B8%89%E6%AD%A5%E5%8E%BB%E5%93%AA%E8%A3%A1-apple-podcast-2a2a114f952a",
+      "contentFile": "content/strengths-podcast.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "foreign-books",
+      "title": "參考書目／Foreign Books",
+      "sourceTitle": "參考書目/Foreign Books",
+      "date": "2024-03-14",
+      "category": "文獻資源",
+      "format": "書目索引",
+      "summary": "整理優勢觀點相關外文參考書目，來源頁面註明更新至2017年。",
+      "url": "articles/foreign-books/index.html",
+      "status": "資料更新至2017",
+      "pinned": false,
+      "tags": [
+        "外文書目",
+        "書籍",
+        "文獻"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%8F%83%E8%80%83%E6%9B%B8%E7%9B%AE-foreign-books-1f8011d84351",
+      "contentFile": "content/foreign-books.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "related-activities",
+      "title": "相關活動／Activities",
+      "sourceTitle": "相關活動／Activities",
+      "date": "2024-03-14",
+      "category": "活動與研討會",
+      "format": "活動索引",
+      "summary": "收錄優點個案管理運用於家暴與性侵害領域的相關活動資訊。",
+      "url": "articles/related-activities/index.html",
+      "status": "歷史資料",
+      "pinned": false,
+      "tags": [
+        "家暴",
+        "性侵害",
+        "個案管理"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E7%9B%B8%E9%97%9C%E6%B4%BB%E5%8B%95-activities-27271b520818",
+      "contentFile": "content/related-activities.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "research-tools",
+      "title": "研究成果／Research",
+      "sourceTitle": "研究成果/Research",
+      "date": "2024-03-14",
+      "category": "研究成果",
+      "format": "研究工具",
+      "summary": "提供照顧者負荷、社會功能、復元階段與增強權能等量表的授權及使用資訊。",
+      "url": "articles/research-tools/index.html",
+      "status": "需核對授權條件",
+      "pinned": false,
+      "tags": [
+        "量表",
+        "研究工具",
+        "授權"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C-research-1907fd852e94",
+      "contentFile": "content/research-tools.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "theses",
+      "title": "碩博論文相關文章／Thesis",
+      "sourceTitle": "碩博論文相關文章／Thesis",
+      "date": "2024-03-14",
+      "category": "文獻資源",
+      "format": "文獻索引",
+      "summary": "彙整優勢觀點相關碩博士論文，來源頁面註明更新至2016年。",
+      "url": "articles/theses/index.html",
+      "status": "資料更新至2016",
+      "pinned": false,
+      "reviewNote": "來源摘要顯示「更新至2016ㄎ」，疑為輸入錯字，建議回原稿確認。",
+      "tags": [
+        "碩士論文",
+        "博士論文",
+        "文獻"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E7%A2%A9%E5%8D%9A%E8%AB%96%E6%96%87%E7%9B%B8%E9%97%9C%E6%96%87%E7%AB%A0-thesis-2878ded98e26",
+      "contentFile": "content/theses.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "domestic-journals",
+      "title": "國內期刊／Domestic Journal",
+      "sourceTitle": "國內期刊／Domestic Journal",
+      "date": "2024-03-14",
+      "category": "文獻資源",
+      "format": "文獻索引",
+      "summary": "彙整國內優勢觀點相關期刊文章，來源頁面註明更新至2022年。",
+      "url": "articles/domestic-journals/index.html",
+      "status": "資料更新至2022",
+      "pinned": false,
+      "tags": [
+        "國內期刊",
+        "文獻",
+        "研究"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%9C%8B%E5%85%A7%E6%9C%9F%E5%88%8A-domestic-journal-caf9917d3508",
+      "contentFile": "content/domestic-journals.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "case-management-outcomes",
+      "title": "優點個案管理模式的推動有何成效",
+      "sourceTitle": "優點個案管理模式的推動有何成效",
+      "date": "2024-03-13",
+      "category": "理論與實務",
+      "format": "實務論述",
+      "summary": "說明優點個案管理推動後，在憂鬱、增強權能、生活滿意與壓力因應等面向的評估結果。",
+      "url": "articles/case-management-outcomes/index.html",
+      "status": "理論資料",
+      "pinned": false,
+      "tags": [
+        "成效評估",
+        "增強權能",
+        "個案管理"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%84%AA%E9%BB%9E%E5%80%8B%E6%A1%88%E7%AE%A1%E7%90%86%E6%A8%A1%E5%BC%8F%E7%9A%84%E6%8E%A8%E5%8B%95%E6%9C%89%E4%BD%95%E6%88%90%E6%95%88-9d750a6a495e",
+      "contentFile": "content/case-management-outcomes.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "universal-and-contingent-use",
+      "title": "優點個案管理的全面普遍使用和部份權變運用",
+      "sourceTitle": "優點個案管理的全面普遍使用和部份權變運用",
+      "date": "2024-03-13",
+      "category": "理論與實務",
+      "format": "實務論述",
+      "summary": "討論優點個案管理的核心原則，以及全面運用與依情境調整的實務作法。",
+      "url": "articles/universal-and-contingent-use/index.html",
+      "status": "理論資料",
+      "pinned": false,
+      "tags": [
+        "權變運用",
+        "實務原則",
+        "個案管理"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%84%AA%E9%BB%9E%E5%80%8B%E6%A1%88%E7%AE%A1%E7%90%86%E7%9A%84%E5%85%A8%E9%9D%A2%E6%99%AE%E9%81%8D%E4%BD%BF%E7%94%A8%E5%92%8C%E9%83%A8%E4%BB%BD%E6%AC%8A%E8%AE%8A%E9%81%8B%E7%94%A8-0d0f54f4ec90",
+      "contentFile": "content/universal-and-contingent-use.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "relationship-with-other-theories",
+      "title": "優點個案管理和其他社會工作處遇理論之間的關係",
+      "sourceTitle": "優點個案管理和其他社會工作處遇理論之間的關係",
+      "date": "2024-03-12",
+      "category": "理論與實務",
+      "format": "理論論述",
+      "summary": "說明優點個案管理與其他社會工作處遇理論之間的互補關係。",
+      "url": "articles/relationship-with-other-theories/index.html",
+      "status": "理論資料",
+      "pinned": false,
+      "tags": [
+        "處遇理論",
+        "復元",
+        "社會工作"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%84%AA%E9%BB%9E%E5%80%8B%E6%A1%88%E7%AE%A1%E7%90%86%E5%92%8C%E5%85%B6%E4%BB%96%E7%A4%BE%E6%9C%83%E5%B7%A5%E4%BD%9C%E8%99%95%E9%81%87%E7%90%86%E8%AB%96%E4%B9%8B%E9%96%93%E7%9A%84%E9%97%9C%E4%BF%82-335f02421c83",
+      "contentFile": "content/relationship-with-other-theories.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "implementation-essentials",
+      "title": "優點個案管理的執行要領",
+      "sourceTitle": "優點個案管理的執行要領",
+      "date": "2024-03-12",
+      "category": "理論與實務",
+      "format": "實務指引",
+      "summary": "整理優點個案管理在處遇理念與著手取向上的執行重點。",
+      "url": "articles/implementation-essentials/index.html",
+      "status": "理論資料",
+      "pinned": false,
+      "tags": [
+        "執行要領",
+        "處遇",
+        "個案管理"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%84%AA%E9%BB%9E%E5%80%8B%E6%A1%88%E7%AE%A1%E7%90%86%E7%9A%84%E5%9F%B7%E8%A1%8C%E8%A6%81%E9%A0%98-d9db923e6092",
+      "contentFile": "content/implementation-essentials.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "about-association",
+      "title": "關於學會／Introduction",
+      "sourceTitle": "關於學會",
+      "date": "2024-03-12",
+      "category": "學會介紹",
+      "format": "組織介紹",
+      "summary": "介紹學會的成立背景、發展緣起與主要工作方向。",
+      "url": "articles/about-association/index.html",
+      "status": "組織資料",
+      "pinned": false,
+      "tags": [
+        "學會",
+        "簡介",
+        "成立背景"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E9%97%9C%E6%96%BC%E5%AD%B8%E6%9C%83-5f52ddaaad33",
+      "contentFile": "content/about-association.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "call-for-papers-2024",
+      "title": "2024優勢觀點與社會工作實務研討會徵稿啟事",
+      "sourceTitle": "2024優勢觀點與社會工作實務研討會徵稿啟事",
+      "date": "2024-03-12",
+      "category": "活動與研討會",
+      "format": "徵稿公告",
+      "summary": "公告2024年研討會的徵稿主題與投稿資訊，主題為「在優勢的基礎上邁向心理健康」。",
+      "url": "articles/call-for-papers-2024/index.html",
+      "status": "歷史資料",
+      "pinned": false,
+      "tags": [
+        "研討會",
+        "徵稿",
+        "心理健康"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/2024%E5%84%AA%E5%8B%A2%E8%A7%80%E9%BB%9E%E8%88%87%E7%A4%BE%E6%9C%83%E5%B7%A5%E4%BD%9C%E5%AF%A6%E5%8B%99%E7%A0%94%E8%A8%8E%E6%9C%83%E5%BE%B5%E7%A8%BF%E5%95%9F%E4%BA%8B-5f769af021b1",
+      "contentFile": "content/call-for-papers-2024.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "recovery-strengths-case-management",
+      "title": "復元優點個案管理",
+      "sourceTitle": "復元優點個案管理",
+      "date": "2024-03-12",
+      "category": "理論與實務",
+      "format": "理論論述",
+      "summary": "說明「優點」與「復元」概念在個案管理模式中的關聯。",
+      "url": "articles/recovery-strengths-case-management/index.html",
+      "status": "理論資料",
+      "pinned": false,
+      "tags": [
+        "復元",
+        "優點",
+        "個案管理"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%BE%A9%E5%85%83%E5%84%AA%E9%BB%9E%E5%80%8B%E6%A1%88%E7%AE%A1%E7%90%86-8fc943fccaae",
+      "contentFile": "content/recovery-strengths-case-management.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "strengths-case-management",
+      "title": "優點個案管理",
+      "sourceTitle": "優點個案管理",
+      "date": "2024-03-11",
+      "category": "理論與實務",
+      "format": "理論論述",
+      "summary": "說明引進優點個案管理模式的背景、需求與目的。",
+      "url": "articles/strengths-case-management/index.html",
+      "status": "理論資料",
+      "pinned": false,
+      "tags": [
+        "優點模式",
+        "模式引進",
+        "個案管理"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%84%AA%E9%BB%9E%E5%80%8B%E6%A1%88%E7%AE%A1%E7%90%86-2596e305ce40",
+      "contentFile": "content/strengths-case-management.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "what-is-case-management",
+      "title": "個案管理是什麼？",
+      "sourceTitle": "個案管理",
+      "date": "2024-03-11",
+      "category": "理論與實務",
+      "format": "基礎概念",
+      "summary": "概述個案管理的定義，以及跨專業合作、資源整合與服務協調等核心特性。",
+      "url": "articles/what-is-case-management/index.html",
+      "status": "理論資料",
+      "pinned": false,
+      "tags": [
+        "個案管理",
+        "跨專業",
+        "資源整合"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%80%8B%E6%A1%88%E7%AE%A1%E7%90%86%E6%98%AF%E4%BB%80%E9%BA%BC-0aed67add1c7",
+      "contentFile": "content/what-is-case-management.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "association-essence",
+      "title": "學會宗旨／Essence",
+      "sourceTitle": "學會宗旨/Essence",
+      "date": "2024-03-10",
+      "category": "學會介紹",
+      "format": "組織介紹",
+      "summary": "闡述學會推動優勢觀點、研究發展與實務倡議的核心宗旨。",
+      "url": "articles/association-essence/index.html",
+      "status": "組織資料",
+      "pinned": false,
+      "tags": [
+        "宗旨",
+        "優勢觀點",
+        "倡議"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%AD%B8%E6%9C%83%E5%AE%97%E6%97%A8-essence-b21d547ef281",
+      "contentFile": "content/association-essence.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "association-objectives",
+      "title": "學會目標／Objectives",
+      "sourceTitle": "學會目標/Object",
+      "date": "2024-03-09",
+      "category": "學會介紹",
+      "format": "組織介紹",
+      "summary": "說明學會作為知識平台、研究倡議與社會工作實務推廣的主要目標。",
+      "url": "articles/association-objectives/index.html",
+      "status": "組織資料",
+      "pinned": false,
+      "reviewNote": "英文標題建議由 Object 調整為 Objectives。",
+      "tags": [
+        "目標",
+        "知識平台",
+        "研究倡議"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E5%AD%B8%E6%9C%83%E7%9B%AE%E6%A8%99-object-8739972403d2",
+      "contentFile": "content/association-objectives.md",
+      "migratedAt": "2026-11-23"
+    },
+    {
+      "id": "legacy-center-introduction",
+      "title": "中心簡介／Introduction",
+      "sourceTitle": "學會簡介/Introdution",
+      "date": "2023-07-07",
+      "category": "學會介紹",
+      "format": "組織介紹",
+      "summary": "保存早期網站的中心簡介資料，建議上線前確認現行組織名稱與內容。",
+      "url": "articles/legacy-center-introduction/index.html",
+      "status": "待確認",
+      "pinned": false,
+      "reviewNote": "來源使用「中心」及拼字 Introdution；建議確認是否應改為學會簡介並更新內容。",
+      "tags": [
+        "中心簡介",
+        "歷史資料",
+        "組織沿革"
+      ],
+      "sourceUrl": "https://medium.com/@strengths.tw/%E4%B8%AD%E5%BF%83%E7%B0%A1%E4%BB%8Bintrodution-9b4d7291f5cf",
+      "contentFile": "content/legacy-center-introduction.md",
+      "migratedAt": "2026-11-23"
+    }
+  ]
+}
