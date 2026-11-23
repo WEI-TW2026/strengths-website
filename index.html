@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="臺灣復元優勢觀點社會工作學會文章索引：整理優勢觀點、復元、個案管理、研究、案例與活動資料。"
+    />
+    <meta name="theme-color" content="#163b35" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:title" content="臺灣復元優勢觀點社會工作學會｜文章資料庫" />
+    <meta
+      property="og:description"
+      content="以分類、搜尋與年份整理學會公開文章，快速找到理論、實務、文獻與活動資料。"
+    />
+    <title>臺灣復元優勢觀點社會工作學會｜文章資料庫</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "臺灣復元優勢觀點社會工作學會文章資料庫",
+        "inLanguage": "zh-Hant",
+        "about": ["優勢觀點", "復元", "社會工作", "個案管理"]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#articles">跳至文章列表</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="回到頁首">
+        <span class="brand-mark" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="brand-text">
+          <strong>復元優勢觀點</strong>
+          <small>社會工作知識平台</small>
+        </span>
+      </a>
+      <nav aria-label="主要導覽">
+        <a href="#featured">精選</a>
+        <a href="#articles">文章</a>
+        <a href="#about">關於</a>
+      </nav>
+      <a
+        class="source-link"
+        href="https://medium.com/@strengths.tw"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Medium 原站
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+        <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">STRENGTHS PERSPECTIVE × RECOVERY</p>
+          <h1 id="hero-title">從優勢出發，<br />整理復元的知識路徑</h1>
+          <p class="hero-copy">
+            將學會公開文章重新分類，從個案管理、研究文獻到實務案例，讓每一份知識都更容易被找到與使用。
+          </p>
+          <a class="primary-action" href="#articles">瀏覽全部文章</a>
+        </div>
+
+        <aside class="hero-panel" aria-label="資料庫摘要">
+          <div class="panel-label">ARCHIVE OVERVIEW</div>
+          <div class="hero-stat">
+            <strong id="article-total">29</strong>
+            <span>篇公開文章</span>
+          </div>
+          <div class="hero-stat">
+            <strong id="category-total">8</strong>
+            <span>個主題分類</span>
+          </div>
+          <div class="hero-stat">
+            <strong>2023–2024</strong>
+            <span>文章發布年份</span>
+          </div>
+          <p>資料盤點：2026.11.22</p>
+        </aside>
+      </section>
+
+      <section class="featured section-shell" id="featured" aria-labelledby="featured-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark">FEATURED</p>
+            <h2 id="featured-title">置頂資訊</h2>
+          </div>
+          <p>學會介紹與重要活動入口</p>
+        </div>
+        <div class="featured-grid" id="featured-grid" aria-live="polite"></div>
+      </section>
+
+      <section class="archive section-shell" id="articles" aria-labelledby="archive-title">
+        <div class="section-heading archive-heading">
+          <div>
+            <p class="eyebrow dark">KNOWLEDGE ARCHIVE</p>
+            <h2 id="archive-title">文章資料庫</h2>
+          </div>
+          <p>使用關鍵字、分類與排序快速定位內容</p>
+        </div>
+
+        <div class="controls" role="search">
+          <label class="search-box">
+            <span class="visually-hidden">搜尋文章</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" />
+            </svg>
+            <input id="search-input" type="search" placeholder="搜尋文章、標籤或摘要…" autocomplete="off" />
+          </label>
+          <label class="sort-control">
+            <span>排序</span>
+            <select id="sort-select">
+              <option value="newest">日期：新到舊</option>
+              <option value="oldest">日期：舊到新</option>
+              <option value="title">標題：筆畫順序</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="filter-row" id="category-filters" aria-label="文章分類"></div>
+
+        <div class="results-bar">
+          <p id="result-count" aria-live="polite">載入文章中…</p>
+          <button class="text-button" id="clear-filters" type="button" hidden>清除篩選</button>
+        </div>
+
+        <div class="article-grid" id="article-grid" aria-live="polite"></div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3>沒有符合的文章</h3>
+          <p>試著縮短關鍵字，或改選其他分類。</p>
+          <button class="secondary-action" id="empty-clear" type="button">顯示全部文章</button>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div class="about-copy">
+          <p class="eyebrow">ABOUT THIS ARCHIVE</p>
+          <h2 id="about-title">讓資料可搜尋、可維護，也保留原始脈絡</h2>
+          <p>
+            本站整理公開文章的標題、日期、主題分類與編輯摘要；文章全文及圖片仍以 Medium 原始頁面為準。資料檔採獨立 JSON，日後新增文章時，不必改動版面程式。
+          </p>
+        </div>
+        <div class="about-notes">
+          <div>
+            <strong>01</strong>
+            <span>分類導覽</span>
+            <p>依理論、文獻、研究、案例、人物與活動分流。</p>
+          </div>
+          <div>
+            <strong>02</strong>
+            <span>來源可追溯</span>
+            <p>每筆資料保留 Medium 原文連結與來源標題。</p>
+          </div>
+          <div>
+            <strong>03</strong>
+            <span>適合 GitHub</span>
+            <p>純 HTML、CSS、JavaScript，可直接使用 GitHub Pages。</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <strong>臺灣復元優勢觀點社會工作學會｜文章資料庫</strong>
+        <p>整理版網站範本・文章內容權利歸原作者或原權利人所有</p>
+      </div>
+      <a href="#top">回到頁首</a>
+    </footer>
+
+    <template id="article-card-template">
+      <article class="article-card">
+        <div class="card-topline">
+          <span class="category-badge"></span>
+          <time></time>
+        </div>
+        <h3></h3>
+        <p class="card-summary"></p>
+        <div class="tag-list"></div>
+        <div class="card-footer">
+          <span class="format-label"></span>
+          <a target="_blank" rel="noopener noreferrer">閱讀原文</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
